@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "416111299272",
+    "project_id": "jee-chat-a3d1b",
+    "storage_bucket": "jee-chat-a3d1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416111299272:android:73c891a29d54a66e8873fd",
+        "android_client_info": {
+          "package_name": "com.example.jee_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416111299272-qn6epem9o6v505gd7mdc4a8fv74f4ifv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTrTMjai8Hb2kh3JfCraUlTLHbkYl4Qtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416111299272-qn6epem9o6v505gd7mdc4a8fv74f4ifv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
