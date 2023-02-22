@@ -1,16 +1,30 @@
-import 'dart:developer';
-
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jee_chat/app/modules/chat_view/bloc/messege_bloc.dart';
+import 'package:image_picker/image_picker.dart';
 
 import 'package:jee_chat/app/modules/chat_view/widget/chatlist.dart';
 import 'package:jee_chat/repository/chatpage_route_repository.dart';
 
 class ChatView extends StatelessWidget {
+  XFile? _photo;
+  final ImagePicker imagePicker = ImagePicker();
+  Future imagefromGallery() async {
+    final pickedFile = await imagePicker.pickImage(source: ImageSource.gallery);
+    if (pickedFile != null) {
+      _photo = pickedFile;
+    }
+  }
+
+  uploadfile() {
+    if (_photo != null) {
+      // final fileName = getRandomString(15).extens
+    }
+  }
+
   TextEditingController sendMessege = TextEditingController();
   ChatView({super.key});
   @override
