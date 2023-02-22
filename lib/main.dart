@@ -11,7 +11,6 @@ import 'package:jee_chat/app/modules/sinup/sinupview.dart';
 import 'package:jee_chat/infastructure/index.dart';
 import 'package:jee_chat/repository/auth_repository.dart';
 import 'package:jee_chat/service/contact_database.service.dart';
-import 'package:jee_chat/service/homeview_database.dart';
 
 import 'app/modules/sinup/bloc/auth_bloc.dart';
 import 'app/modules/sinup/bloc/bloc_observable.dart';
